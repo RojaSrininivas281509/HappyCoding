@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import salesData from './utility/Sales.json'; // Adjust the path as necessary
+import salesData from '../utility/Sales.json'; // Adjust the path as necessary
 
 const SalesTable = () => {
   const [sales, setSales] = useState([]);
