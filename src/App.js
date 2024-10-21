@@ -9,8 +9,8 @@ import React from 'react';
 //import Stopwatch from'./CalculatorWithInput';
 // import BindDataTable  from './BindData';
 // import SearchInput  from './searchInput';
-import InputTextFormat  from './inputTextFormat';
-
+// import InputTextFormat  from './inputTextFormat';
+import ProgressBar  from './progressBar';
 
 export default function App(){
   return(
@@ -25,7 +25,8 @@ export default function App(){
       {/* <Stopwatcher/> */}
       {/* <BindDataTable/> */}
       {/* <SearchInput/> */}
-      <InputTextFormat/>
+      {/* <InputTextFormat/> */}
+      <ProgressBar/>
  
 
     </div>
