@@ -10,8 +10,9 @@ import React from 'react';
 // import BindDataTable  from './BindData';
 // import SearchInput  from './searchInput';
 // import InputTextFormat  from './inputTextFormat';
-import ProgressBar  from './progressBar';
-
+// import ProgressBar  from './Pages/progressBar.js';
+// import ProgressBarWithButtons from './Pages/progressBarwithButtons.js';
+import MultiSelectDropdown from './Pages/multiSelectDropdown';
 export default function App(){
   return(
     <div>
@@ -26,7 +27,9 @@ export default function App(){
       {/* <BindDataTable/> */}
       {/* <SearchInput/> */}
       {/* <InputTextFormat/> */}
-      <ProgressBar/>
+      {/* <ProgressBar/> */}
+      {/* <ProgressBarWithButtons/> */}
+      <MultiSelectDropdown/>
  
 
     </div>
