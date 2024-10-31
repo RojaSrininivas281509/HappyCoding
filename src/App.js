@@ -1,4 +1,5 @@
 import React from 'react';
+import ParentComponent from './Pages/Test';
 // import Calculator from './calculator';
 //import ParentComponent from './ShareDataParentChild';
 // import SalesTable from './SalesTable';
@@ -12,7 +13,9 @@ import React from 'react';
 // import InputTextFormat  from './inputTextFormat';
 // import ProgressBar  from './Pages/progressBar.js';
 // import ProgressBarWithButtons from './Pages/progressBarwithButtons.js';
-import MultiSelectDropdown from './Pages/multiSelectDropdown';
+// import MultiSelectDropdown from './Pages/multiSelectDropdown';
+// import TimerApp from './Pages/Timer';
+// import DebounceApp from './Pages/Synechron-Test';
 export default function App(){
   return(
     <div>
@@ -29,7 +32,10 @@ export default function App(){
       {/* <InputTextFormat/> */}
       {/* <ProgressBar/> */}
       {/* <ProgressBarWithButtons/> */}
-      <MultiSelectDropdown/>
+      {/* <MultiSelectDropdown/> */}
+      {/* <TimerApp/> */}
+      {/* <DebounceApp/> */}
+      <ParentComponent/>
  
 
     </div>
